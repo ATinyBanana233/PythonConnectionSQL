@@ -4,7 +4,7 @@
 #import the library for the database interface
 import pymssql
 #connect to
-connection = pymssql.connect(host='cypress.csil.sfu.ca', user='s_bbli', password='3trrbAjmTjMde4P3', database='bbli354')
+connection = pymssql.connect(host='', user='', password='', database='')
 
 #set cursor
 cursor = connection.cursor()
